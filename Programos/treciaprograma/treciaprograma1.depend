@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1512047609 source:c:\users\neriu\programos\treciaprograma\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Funkcija.h"
+
+1511379877 c:\users\neriu\programos\treciaprograma\funkcija.h
+

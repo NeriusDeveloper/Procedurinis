@@ -1,0 +1,8 @@
+all: main.o Funkcija.o
+	gcc main.o Funkcija.o -o a.out
+Funkcija.o: Funkcija.c
+	gcc -c Funkcija.c -o Funkcija.o
+main.o: main.c
+	gcc -c main.c -o main.o
+clean:
+	rm *.o
